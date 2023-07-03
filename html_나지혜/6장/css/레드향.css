@@ -1,0 +1,11 @@
+p {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+/* 빨간색-> 파란색 순으로 적용 = 둘다 적용되었지만 결과적으로 파란색으로 나타남 */
+body {
+  background-color: grey;
+}

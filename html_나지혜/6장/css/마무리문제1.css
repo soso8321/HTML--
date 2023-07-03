@@ -1,0 +1,12 @@
+h1 {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  width: 250px;
+  text-align: center;
+}
+li {
+  list-style: none;
+  color: blue;
+}
+/*<li>항목을 전부 동일하게 스타일적용하므로 class선언하지 않아도 li 태그로 가능*/ 

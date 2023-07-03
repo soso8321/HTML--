@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>포지션2</title>
+  <style>
+    #static {
+      position: static;
+    }
+    #relative-1 {
+      position: relative; /*위쪽 내용을 기준으로 함*/
+      left: 30px;
+      top: 30px;
+    }
+    #relative-2 {
+      position: relative; /*위쪽 내용을 기준으로 함*/
+      left: 50px;
+      top: -30px;
+    }
+    #fixed {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: fixed;
+      right: 30px;
+      top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <p id="static">가공식품 가격 인하가 확산하는 가운데 편의점이 정부의 물가 안정 기조 발맞추기에 나섰다. 서민식품 라면 공급가 인하분을 소비자 판매 가격에 반영하고 덤 행사를 추가로 진행한다. 편의점 공급가격이 인상된
+    아이스크림의 경우 판매 가격은 동결한다.</p>
+  <p id="relative-1">가공식품 가격 인하가 확산하는 가운데 편의점이 정부의 물가 안정 기조 발맞추기에 나섰다. 서민식품 라면 공급가 인하분을 소비자 판매 가격에 반영하고 덤 행사를 추가로 진행한다. 편의점 공급가격이 인상된
+    아이스크림의 경우 판매 가격은 동결한다.</p>
+  <p id="relative-2">가공식품 가격 인하가 확산하는 가운데 편의점이 정부의 물가 안정 기조 발맞추기에 나섰다. 서민식품 라면 공급가 인하분을 소비자 판매 가격에 반영하고 덤 행사를 추가로 진행한다. 편의점 공급가격이 인상된
+    아이스크림의 경우 판매 가격은 동결한다.</p>
+  <p id="fixed">고정 광고</p>
+</body>
+
+</html>

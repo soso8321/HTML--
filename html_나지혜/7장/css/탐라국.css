@@ -1,0 +1,16 @@
+h1 {
+  color: hwb(140 29% 34% / 0.596);
+}
+
+h2 {
+  color: blue;
+}
+
+li {
+  color: #150053;
+}
+
+table, th, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
