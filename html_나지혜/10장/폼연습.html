@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Document</title>
+  <style>
+    table {
+      width: 400px;
+      margin: 50px auto;
+    }
+
+    table,
+    td,
+    tr {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    button {
+      display: block;
+      margin: auto;
+    }
+
+    caption {
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <table>
+      <caption>
+        <h1>텍스트 입력 창</h1>
+      </caption>
+
+      <tr>
+        <td><label for="user" name="user">이름 : </label></td>
+        <td><input id="user" type="text" size=40px required></td>
+      </tr>
+      <tr>
+        <td><label for="password">비밀번호</label></td>
+        <td><input id="password" type="password" size=40px required autofocus></td>
+      </tr>
+      <tr>
+        <td><label for="email_agre">이메일 수신</label></td>
+        <td><input id="email_agre" type="radio" name="email_check" value="yes">예
+          <input id="email_agre" type="radio" name="email_check" value="no" checked>아니오
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><label for="interst_type">TV에서 즐겨보는 분야는?</label></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input id="interst_type" type="checkbox" name="inter">뉴스
+          <input id="interst_type" type="checkbox" name="inter">드라마
+          <input id="interst_type" type="checkbox" name="inter">스포츠
+          <input id="interst_type" type="checkbox" name="inter">엔터테이먼트
+          <input id="interst_type" type="checkbox" name="inter">기타
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><select>수신방법</select>
+        <option id
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><button type="submit">전송</button> </td>
+      </tr>
+    </table>
+
+
+
+
+
+    <br>
+
+  </form>
+
+</body>
+
+</html>

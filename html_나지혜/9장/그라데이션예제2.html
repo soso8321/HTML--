@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+    div {
+      width: 300px;
+      height: 300px;
+    }
+    .grad1 {
+      background: repeating-linear-gradient(yellow, red 15%);
+    }
+    .grad2 {
+      background: repeating-radial-gradient(circle, white, grey 15%);
+    }
+    .grad3 {
+      background: repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px);
+                                             /*시작과 끝지점을 명시하므로 선(색)이 분명히 구분됨*/
+    }
+    .grad4 {
+      background: repeating-radial-gradient(circle, white, white 10%, grey 10%, grey 30%);
+    }
+  </style>
+</head>
+<body>
+  <div class="grad1" ></div>
+  <div class="grad2" ></div>
+  <div class="grad3" ></div>
+  <div class="grad4" ></div>
+</body>
+</html>

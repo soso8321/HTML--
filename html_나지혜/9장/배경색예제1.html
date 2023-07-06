@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+    .desc {
+      width:200px;
+      height: 100px;
+      padding: 20px;
+      margin: 20px;
+      border: 3px dotted black; 
+      background-color: orange; /*margin 빼고 border까지 색이 들어감*/
+      float: left;
+    }
+    #clip-padding {
+      background-clip: padding-box; /*border를 포함하지 않고 색이 들어감-자주 사용*/
+    }
+    #clip-content {
+      background-clip: content-box; /*content에만 색이 들어감*/
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="desc" id = "clip-border">가나다라마바사</div>
+    <div class="desc" id = "clip-padding">가나다라마바사</div>
+    <div class="desc" id = "clip-content">가나다라마바사</div>
+  </div>
+</body>
+</html>
