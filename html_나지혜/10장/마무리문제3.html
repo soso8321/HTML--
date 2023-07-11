@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>게시판 글쓰기 폼</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      margin: 15px;
+    }
+    form {
+      width: 700px;
+    }
+
+    ul li {
+      list-style: none;
+      border-bottom: 2px solid lightgray;
+      padding: 10px;
+      line-height: 30px;
+    }
+    ul li:nth-child(3) label {
+      line-height: 200px;
+    }
+    ul li:first-of-type {
+      border-top: 3px solid black;
+    }
+    ul li label {
+      float: left;
+      width: 100px;
+      
+    }
+    ul li input[readonly] {
+      border:none;
+    }
+    ul li input{
+      width: 550px;
+      height: 30px;
+    }
+    ul li textarea {
+      width: 550px;
+      height: 200px;
+    }
+    div input {
+      margin-top: 0;
+      float: right;
+      margin: 10px;
+      width: 70px;
+      height: 30px;
+    }
+   
+
+
+  </style>
+</head>
+
+<body>
+  <form>
+    <h1>게시판 글쓰기 폼</h1>
+    <ul>
+      <li><label for="name">이름</label>
+        <input type="text" id="name" value="홍길동" readonly>
+      </li>
+      <li><label for="title">제목</label>
+        <input type="text" id="title">
+      </li>
+      <li><label for="content">글 내용</label>
+        <textarea id="content"></textarea>
+      </li>
+      <li><label for="file">파일</label>
+      <input type="file" value="파일선택">
+      </li>
+    </ul>
+    <div id="button">
+      <input type="button" value="목록보기">
+      <input type="button" value="저장하기">
+  </div>
+  </form>
+
+</body>
+
+</html>

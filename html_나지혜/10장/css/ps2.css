@@ -1,0 +1,106 @@
+* {
+  margine: 0;
+  padding: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.navi {
+  width: 960px;
+  height: 60px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+.navi ul {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.navi ul li {
+  list-style: none;
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+}
+
+.navi a:link, .navi a:visited {
+  font-size: 14px;
+  padding: 10px;
+  text-decoration: none; /*밑줄 없음*/
+  color: black;
+}
+.navi a:hover, .navi a:focus {  /*마우스를 위에 올려 놓거나 포커스가 있을 때*/
+  background-color: black;
+  color #fff;
+}
+.navi a:active { /*마우스를 클릭하고 있을 때*/
+  background-color: red;
+}
+#signup {
+  
+}
+.navi ul {
+  width: 1200px;
+  height: 50px;
+  border-bottom: 2px solid gray;
+  margin: auto;
+  padding: 20px;
+}
+
+.navi ul li {
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  padding: 30px;
+}
+
+.navi a:link {
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  border: 2px solid black;
+  width: 500px;
+  height: 600px;
+  padding: 20px;
+  margin: 30px auto;
+}
+
+#container2 {
+  width: 400px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+#container3 {
+  width: 400px;
+  height: 250px;
+  margin: 30px auto;
+}
+
+#container4 {
+  border: none;
+}
+
+ul li {
+  line-height: 50px;
+  list-style: none;
+  padding: 15px 120px;
+  margin-bottom: 2px;
+}
+
+input {}
+
+button {
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  padding: 7px 25px;
+  background-color: grey;
+  border-radius: 10px;
+}

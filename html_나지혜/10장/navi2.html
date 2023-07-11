@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>홈페이지 이용 안내</title>
+  <style>
+  
+
+  .navi {
+    border-bottom: 2px solid gray;
+
+  }
+  .navi ul li {
+    display: inline-block;
+    list-style: none;
+    width: 250px;
+    text-align: center;
+  }
+  .navi ul a:link{
+    color: black;
+    text-decoration: none;
+  }
+  .navi ul a:hover{
+    background-color: black;
+    color: white;
+  } 
+  #intro:target { /*intro로 명칭된 두 개체끼리 연결될 경우-> intro설정한 개체를 선택했을 때 보이는 설정*/
+    background-color: black;
+    color:blueviolet; 
+  }
+    
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <nav class="navi">
+      <ul>
+        <li><a href="#">이용안내</a></li>
+        <li><a href="#">객실 소개</a></li>
+        <li><a href="#intro">예약 방법 및 요금</a></li> 
+        <li><a href="#">예약하기</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id = "intro">
+    <h1>객실소개</h1>
+    <p>가나다라마바사아자차카타파하</p>
+  </div>
+</body>
+
+</html>
